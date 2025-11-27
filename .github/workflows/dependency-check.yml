@@ -1,0 +1,29 @@
+name: Dependency Check
+
+on:
+  push:
+    branches:
+      - '**'    
+  workflow_dispatch: 
+
+jobs:
+  dependency-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Run Dependency Check
+        uses: dependency-check/Dependency-Check_Action@main
+        with:
+          project: 'pirateship-site'
+          path: '.'
+          format: 'HTML'
+          args: >
+            --failOnCVSS 0
+
+      - name: Upload Dependency Check Report
+        uses: actions/upload-artifact@v4
+        with:
+          name: dependency-check-report
+          path: reports/

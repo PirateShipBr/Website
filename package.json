@@ -1,0 +1,15 @@
+{
+  "name": "pirateship-site",
+  "version": "1.0.0",
+  "description": "Site estático da PirateShip com dependências gerenciadas via npm",
+  "scripts": {
+    "build": "npm run copy:bootstrap && npm run copy:fullcalendar",
+    "copy:bootstrap": "cp node_modules/bootstrap/dist/css/bootstrap.min.css css/ && cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js js/",
+    "copy:fullcalendar": "cp node_modules/fullcalendar/index.global.min.js js/ && cp node_modules/@fullcalendar/core/locales-all.global.min.js js/"
+  },
+  "dependencies": {
+    "bootstrap": "5.3.2",
+    "fullcalendar": "6.1.19"
+  }
+}
+
