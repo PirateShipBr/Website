@@ -1,0 +1,14 @@
+# Logs do npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# MacOS
+.DS_Store
+
+# Dependency-Check
+reports/
+
+# Arquivos temporários
+*.tmp
+
