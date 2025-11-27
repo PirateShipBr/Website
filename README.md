@@ -1,8 +1,16 @@
-# Pirate Ship
-<div style="text-align: center;">
-  <img src="site_aguarde/images/logo.png" alt="logo" width="300" height="300">
-</div>
+<h1 align="center">🏴‍☠️ Pirate Ship</h1>
 
-<br>🏴‍☠️ Da comunidade para a comunidade
-<br>💻 Hacking, estudos e caos organizado
-<br>🦈 Ou cola com o bando ou fica a deriva
+<p align="center">
+  <img src="images/logo-horizontal.png" alt="Logo Pirate Ship" width="260" />
+</p>
+
+<p align="center">
+  <strong>🏴‍☠️ Da comunidade para a comunidade! 🏴‍☠️</strong><br>
+  💻 Hacking, estudos e caos organizado<br>
+  🦈 Ou cola com o bando ou fica à deriva
+</p>
+
+---
+
+### 🌐 Convite para o Discord  
+👉 https://discord.com/invite/pirateship
