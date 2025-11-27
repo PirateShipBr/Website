@@ -1,7 +1,7 @@
 <h1 align="center">🏴‍☠️ Pirate Ship</h1>
 
 <p align="center">
-  <img src="site_aguarde/images/logo.png" alt="Logo Pirate Ship" width="260" />
+  <img src="images/logo-horizontal.png" alt="Logo Pirate Ship" width="260" />
 </p>
 
 <p align="center">
